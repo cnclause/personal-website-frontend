@@ -2,7 +2,9 @@
     <div class="home-container" >
         <h1> {{msg}} </h1>
         <ContactForm msg ="Contact Me"/>
-        <AllProjects :projects = "projects" />
+        <AllProjects 
+            :projects = "projects"
+        />
     </div>
 
 </template>
@@ -34,11 +36,18 @@ export default {
         getAllProjects(){
             fetch('http://localhost:3000/api/projects')
                 .then(response => response.json())
-                .then(projects => this.projects = projects)
-        }
+                .then(projects => {this.projects = projects})
+        },
+
+        mapProjects(){
+            let projects = this.projects
+            return projects.map(project => {
+                return project.title
+            })
+        }   
     }
-    
 }
+
 </script>
 
 <style scoped lang="scss">
