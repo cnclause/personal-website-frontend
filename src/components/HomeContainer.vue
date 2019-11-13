@@ -1,9 +1,11 @@
 <template>
     <div class="home-container" >
-        <h1> {{msg}} </h1>
-        <AllProjects 
-            :projects = "projects"
-        />
+       <header>
+            <img src='../images/hikingpng.png' alt="hikingpic" />
+            <h1 class = "title"> Hey, I'm Cat </h1>
+        </header>
+     <router-view/>
+
         <ContactForm />
     </div>
 
@@ -12,32 +14,11 @@
 
 <script>
 import ContactForm from './ContactForm.vue'
-import AllProjects from './AllProjects.vue'
-
 
 export default {
     name: 'HomeContainer',
-    props: {
-        msg: String
-    },
     components: {
-        AllProjects,
         ContactForm
-    },
-    data(){
-        return {
-            projects: []
-      }
-    },
-    mounted(){
-        this.getAllProjects()
-    },
-    methods: {
-        getAllProjects(){
-            fetch('http://localhost:3000/api/projects')
-                .then(response => response.json())
-                .then(projects => {this.projects = projects})
-        }
     }
 }
 
@@ -47,11 +28,24 @@ export default {
 
 .home-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
-h1 {
-   color: blue;
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5rem;
 }
+
+
+.title {
+    font-size: 40pt;
+  }
+
+img {
+    width: 45rem;
+    border-radius: 5px;
+  }
 
 </style>

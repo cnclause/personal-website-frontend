@@ -1,12 +1,11 @@
+
 <template>
   <div id="app">
-    <header>
-      <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
-      </div>
-      <h1 class = "title"> Hey, I'm Cat </h1>
-    </header>
+    <div id="nav">
+        <router-link to="/">About Me</router-link> |
+        <router-link to="/projects">Projects</router-link> |
+        <router-link to="/resume">Resume</router-link> |
+    </div>
     <router-view/>
   </div>
 </template>
@@ -17,19 +16,29 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #DCC7AA;
+  // background: #DCC7AA;
+  background: #6B7A8F;
 }
 
+
+
+
 #nav {
-  padding: 30px;
+  padding: 10px;
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: 	#F7882F;
+    font-size: 20pt;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #DCC7AA;
     }
   }
 }
+  
+
+  
+
 </style>

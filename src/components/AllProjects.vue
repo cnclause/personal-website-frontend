@@ -1,10 +1,9 @@
 <template>
 <div class="projects" >
-     <h1> Projects HUR </h1>
     <div  class='projects-container'>
         <div :key='project.id' v-for="project in projects" class='projects-card'>
             <h2 > {{project.title}} </h2>
-            <img :src='project.image_url'/>
+            <img :src='project.image_url' class="project-image"/>
             <p> {{project.description}} </p>
             <a :href='project.deployment_link'> Deployment Link </a>
         </div>
@@ -27,14 +26,17 @@ export default {
 
 .projects-container {
     display: flex;
+    justify-content: center;
 } 
 
 .projects-card {
-    width: 50%;
+    margin-top: 2rem;
+    width: 33%;
 }
 
-.projects-card img {
+.project-image{
     width: 75%;
+    border-radius: 8px;
 }
 
 
