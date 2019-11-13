@@ -1,10 +1,10 @@
 <template>
     <div class="home-container" >
         <h1> {{msg}} </h1>
-        <ContactForm msg ="Contact Me"/>
         <AllProjects 
             :projects = "projects"
         />
+        <ContactForm />
     </div>
 
 </template>
@@ -21,8 +21,8 @@ export default {
         msg: String
     },
     components: {
-        ContactForm,
-        AllProjects
+        AllProjects,
+        ContactForm
     },
     data(){
         return {
@@ -37,20 +37,18 @@ export default {
             fetch('http://localhost:3000/api/projects')
                 .then(response => response.json())
                 .then(projects => {this.projects = projects})
-        },
-
-        mapProjects(){
-            let projects = this.projects
-            return projects.map(project => {
-                return project.title
-            })
-        }   
+        }
     }
 }
 
 </script>
 
 <style scoped lang="scss">
+
+.home-container{
+    display: flex;
+    justify-content: space-between;
+}
 
 h1 {
    color: blue;
