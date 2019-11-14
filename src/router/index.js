@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Project from '../views/Project.vue'
 import Resume from '../views/Resume.vue'
+import Contact from '../views/Contact.vue'
 
 Vue.use(VueRouter)
 
@@ -25,6 +26,11 @@ const routes = [
     path: '/resume',
     name: 'resume',
     component: Resume
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: Contact
   }
 ]
 

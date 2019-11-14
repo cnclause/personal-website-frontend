@@ -1,5 +1,6 @@
 <template>
     <div class="project-container" >
+        
         <AllProjects 
             :projects = "projects"
         />
@@ -33,5 +34,12 @@ export default {
 }
 
 </script>
+
+<style>
+
+
+
+
+</style>
 
 

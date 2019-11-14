@@ -11,28 +11,15 @@
                 <router-link to="/">About Me</router-link> |
                 <router-link to="/projects">Projects</router-link> |
                 <router-link to="/resume">Resume</router-link> |
+                <router-link to="/contact">Contact</router-link> 
               </div>
             </div>
         </header>
      <router-view/>
-
-        <!-- <ContactForm /> -->
     </div>
-
 </template>
 
 
-<script>
-// import ContactForm from './ContactForm.vue'
-
-// export default {
-//     name: 'HomeContainer',
-//     components: {
-//         ContactForm
-//     }
-// }
-
-</script>
 
 <style scoped lang="scss">
 
@@ -46,7 +33,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width:100%;
+    // width:100%;
     height: 70rem;
 }
 
@@ -54,7 +41,7 @@ header {
   display: flex;
   justify-content: flex-end;
   padding-bottom: 5rem;
-  padding-top: 3rem;
+  padding-top: 20rem;
 }
 
 .title-and-links {
@@ -71,9 +58,8 @@ header {
 .title {
     font-size: 40pt;
     font-family: 'Julius Sans One', sans-serif;
-
-
-
+    font-weight: bold;
+    color: white;
   }
 
 img {
