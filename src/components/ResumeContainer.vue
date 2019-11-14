@@ -90,6 +90,12 @@
         list-style-type: none;
     }
 
+    .education-card h2{
+    color: 	#38C3FF;
+    font-size: 17pt;
+   
+    }
+
    .employment-card li:before {
     content: "+";
     }
@@ -106,6 +112,7 @@
     .employment-card h3{
         line-height: 30px;
         color: #38C3FF;
+        font-size: 17pt;
     }
 
     h1 {

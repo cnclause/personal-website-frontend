@@ -1,6 +1,5 @@
 <template>
 <div class="contact-form-container">
-        <h1> Contact Me </h1>
     <form v-on:submit.prevent="submitContact($event)" id='contactForm' class='contact-form'>
         <p>
             <label>Name</label>
@@ -57,6 +56,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+    
 
     .contact-form-container {
         padding-right: 5rem;

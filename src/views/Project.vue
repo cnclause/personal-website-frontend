@@ -2,7 +2,7 @@
   <div class="projects">
     <h1> projects </h1>
     <div class="nav">
-          <router-link to="/">About Me</router-link> 
+          <router-link to="/">Home</router-link> 
           <router-link to="/projects">Projects</router-link>
           <router-link to="/resume">Resume</router-link>
           <router-link to="/contact">Contact</router-link> 
@@ -26,7 +26,7 @@ export default {
 
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');

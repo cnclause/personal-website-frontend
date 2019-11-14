@@ -1,8 +1,8 @@
 <template>
     <div class="resume-page">
-        <h1 id="resume-title"> Resume </h1>
+        <h1 id="resume-title"> resume </h1>
         <div class="nav">
-          <router-link to="/">About Me</router-link> 
+          <router-link to="/">Home</router-link> 
           <router-link to="/projects">Projects</router-link>
           <router-link to="/resume">Resume</router-link>
           <router-link to="/contact">Contact</router-link> 
