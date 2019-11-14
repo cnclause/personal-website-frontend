@@ -26,7 +26,43 @@
                     <li> Currently supporting the education of 9 children </li>
                 </ul>
             </div>
-
+            <div class= "employment-card">
+                <h3> Barista, Copper Door Coffee Roaster </h3>
+                <h4> Denver, CO </h4>
+                <h4> August 2018 - August 2019 </h4>
+                <ul>
+                    <li> Responsible for managing shop alone, making drinks and exceptional customer service
+                    </li>
+                </ul>
+            </div>
+            <div class= "employment-card">
+                <h3> Lead Program Coordinator, World in Conversation </h3>
+                <h4> State College, PA </h4>
+                <h4> June 2015 - June 2018 </h4>
+                <ul>
+                    <li> Manages practicum course requirements for 35 students per semester; creates and upheld scheduling systems that fosters distinct pedagogical approach including environment where students learn by working in partnerships that take into account different social demographics including race, class, gender; train students on google applications, create a safe and diverse work environment
+                    </li>
+                    <li> Manages Excel sheets that monitor daily program analytics, including registration rates, attendance rates, and annual program projections; Supervises an average of 10 undergraduate student interns per semester; create weekly schedules, monitors data entry 
+                    </li>
+                    <li> Research for NATO Grant, COIL Grant, Climate Change Initiative, International Chinese Student Engagement Initiative 
+                    </li>
+                    <li> Proficient with data collection and survey applications: Qualtrics, SurveyMonkey, Google Forms
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="education">
+            <h1> Education </h1>
+            <div class="education-card">
+                <h2> Flatiron School, Denver </h2>
+                <h4> 2019 </h4>
+                <li> Bootcamp Full Stack Web Development, Ruby on Rails, JavaScript, and React fully immersive program </li>
+            </div>
+            <div class="education-card">
+                <h2> The Pennsylvania State University, University Park </h2>
+                <h4> 2016 </h4>
+                <li> Bachelors: Honors in Sociology and Criminology</li>
+            </div>
         </div>
     </div>
 </template>
@@ -39,15 +75,42 @@
 
     .skills-list{
         list-style-type: none;
+        padding: 1rem;
+        line-height: 30px;
     }
 
-    .resume {
-        color: #1f232b;
+    .employment, .education{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+
+    }
+
+    .education-card{
+        list-style-type: none;
+    }
+
+   .employment-card li:before {
+    content: "+";
+    }
+
+   .education-card li:before {
+    content: "+";
+    }
+
+    .employment-card, .education-card {
+        line-height: 30px;
+        max-width: 60%;
+        padding: 1rem;
+    }
+    .employment-card h3{
+        line-height: 30px;
+        color: #38C3FF;
     }
 
     h1 {
-        color: #F7882F;
-        text-shadow: 1px 1px #323944;
+        color: #1955Fa;
+        font-size: 25pt;
     }
 
 </style>
