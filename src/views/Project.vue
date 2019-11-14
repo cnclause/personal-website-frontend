@@ -1,5 +1,6 @@
 <template>
   <div class="projects">
+    <h1> projects </h1>
     <div class="nav">
           <router-link to="/">About Me</router-link> 
           <router-link to="/projects">Projects</router-link>
@@ -28,12 +29,15 @@ export default {
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
 
 h1{
   // color: #F7C331;
-  font-size: 40pt;
+  font-size: 50pt;
   margin-top: 0;
   padding-top: 2rem;
+  font-family: 'Lora', serif;
 
 }
 
@@ -43,6 +47,8 @@ h1{
   display: flex;
   justify-content: space-evenly;
   color: black;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   padding: 10px;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;

@@ -3,9 +3,12 @@
     <div  class='projects-container'>
         <div :key='project.id' v-for="project in projects" class='projects-card'>
             <img :src='project.image_url' class="project-image"/>
-            <h2 > {{project.title}} </h2>
-            <p> {{project.description}} </p>
-            <a :href='project.deployment_link'> Deployment Link </a>
+            <div class="project-info">
+                <h2 > {{project.title}} </h2>
+                <p> {{project.description}} </p>
+                <h4> {{project.technologies}}</h4>
+                <a :href='project.deployment_link'> Deployment Link </a>
+            </div>
         </div>
     </div>
 </div>
@@ -33,17 +36,40 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%
+    width: 100%
 } 
 
 .projects-card {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
     margin-top: 2rem;
-    width: 90%;
+    width: 60%;
+}
+
+.project-info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5rem;
+}
+
+.project-info p, a{
+    padding: 1rem;
+}
+
+.project-info p{
+    padding: 1rem;
+    line-height: 30px;
 }
 
 .project-image{
-    width: 75%;
-    border-radius: 8px;
+    width: 100%;
+    // border-radius: 8px;
+}
+
+h4{
+    font-style: italic;
 }
 
 h2 {
