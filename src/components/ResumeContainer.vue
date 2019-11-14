@@ -41,4 +41,13 @@
         list-style-type: none;
     }
 
+    .resume {
+        color: #1f232b;
+    }
+
+    h1 {
+        color: #F7882F;
+        text-shadow: 1px 1px #323944;
+    }
+
 </style>

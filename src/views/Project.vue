@@ -30,8 +30,8 @@ h1{
 }
 
 .projects {
-  background-color: #F7C331;
-  color: #6B7A8F
+  background-color: #6B7A8F;
+  color: #DCC7AA;
 }
 
 </style>

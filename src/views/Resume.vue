@@ -24,8 +24,8 @@ export default {
     .resume-page {
         // background-color: #F7882F;
         // color: #DCC7AA
-        background-color: #DCC7AA;
-        color: #F7882F
+        background-color: #6B7A8F;
+        color: #DCC7AA;
     }
 
     #resume-title{

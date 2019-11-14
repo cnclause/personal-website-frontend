@@ -35,12 +35,14 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: #6B7A8F;
 }
 
 header {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 5rem;
+  padding-top: 3rem;
 }
 
 

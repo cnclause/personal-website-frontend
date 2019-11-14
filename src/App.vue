@@ -18,7 +18,7 @@
   text-align: center;
   color: #DCC7AA;
   // background: #DCC7AA;
-  background: #6B7A8F;
+  // background: #6B7A8F;
 }
 
 
@@ -26,6 +26,7 @@
 
 #nav {
   padding: 10px;
+  background: #323944;
 
   a {
     font-weight: bold;
