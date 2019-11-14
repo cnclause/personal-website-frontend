@@ -32,29 +32,7 @@ h1 {
     font-family: 'Lora', serif;
 }
 
-// .nav {
-//   display: flex;
-//   justify-content: space-evenly;
-//   color: black;
-//   margin-top: 5rem;
-//   margin-bottom: 5rem;
-//   padding: 10px;
-//   font-family: 'Raleway', sans-serif;
-//   text-transform: uppercase;
-    
-//     a {
-//     text-decoration: none;
-//     text-align: center;
 
-//     font-weight: bold;
-//     color: 	#1955Fa;
-//     font-size: 15pt;
-
-//     &.router-link-exact-active {
-//       color: #38C3FF;
-//     }
-//   }
-// }
 
 </style>
 

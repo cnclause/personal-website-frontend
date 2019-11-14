@@ -4,9 +4,30 @@
             <!-- <img src='../images/hikingpng.png' alt="hikingpic" /> -->
             <div class="title-and-links">
                 <h1 class = "title"> Cat Clause </h1>
-                <img src='../images/bluegit.png' alt="github"/> 
-                <img src='../images/blueblog.png' alt="medium"/> 
-                <img src='../images/bluelinkedin.png' alt="linkedin"/> 
+                  <a
+                    href="https://github.com/cnclause"
+                    class="icon git-icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                      <img src='../images/bluegit.png' alt="github"/> 
+                  </a>
+                  <a
+                    href="https://medium.com/@cnclause123"
+                    class="icon medium-icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src='../images/blueblog.png' alt="medium"/> 
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/catherine-clause-a15b58191/"
+                    class="icon linkedin-icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src='../images/bluelinkedin.png' alt="linkedin"/>
+                  </a>
               <div id="nav">
                 <router-link to="/projects">Projects</router-link>
                 <router-link to="/resume">Resume</router-link>
@@ -51,11 +72,6 @@ header {
 }
 
 
-.title-and-links img{
-  width: 4rem;
-  margin: 1rem;
-}
-
 
 .title {
     font-size: 50pt;
@@ -68,7 +84,7 @@ header {
   display: flex;
   justify-content: space-around;
   color: black;
-  padding: 10px;
+  padding: 1rem;
   width: 100%;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -85,13 +101,22 @@ header {
       color: #38C3FF;
     }
   }
-  
 }
 
-img {
-    width: 45rem;
-    border-radius: 5px;
+
+
+
+.icon {
+    cursor: pointer;
+    padding: 1rem;
   }
+
+img {
+  width: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 
 
 

@@ -58,22 +58,50 @@ export default {
 <style scoped lang="scss">
 
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
     
 
     .contact-form-container {
-        padding-right: 5rem;
+        width: 100%;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        
     }
 
-    .contact-form-container input, label {
+    .contact-form-container input, label{
         display: flex;
         justify-items: center;
+        width: 25rem;
+        height: 2rem;
+    }
+
+    label{
+        align-items: center;
+        justify-content: center;
     }
 
     .contact-form {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-evenly;
+        height: 30rem;
+    }
+
+    .contact-form textarea{
+        width: 25rem;
+        height: 3rem;
+    }
+
+    button {
+        width: 10rem;
+        height: 2rem;
+        font-size: 10pt;
+    }
+
+    input {
+        font-size: 10pt;
     }
 
 </style>
