@@ -7,6 +7,9 @@
           <router-link to="/resume">Resume</router-link>
           <router-link to="/contact">Contact</router-link> 
         </div>
+        <button @click="onClick()">
+            Download Resume
+        </button>
         <ResumeContainer />
     </div>
 
@@ -15,11 +18,35 @@
 <script>
 
 import ResumeContainer from '@/components/ResumeContainer.vue'
+import Vue from 'vue'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+ 
+Vue.use(VueAxios, axios)
 
 export default {
     name: 'resume',
     components: {
         ResumeContainer
+    },
+    methods: {
+    onClick() {
+        axios({
+            url: 'http://localhost:5000/downloadFile',
+            method: 'GET',
+            responseType: 'blob',
+        }).then((response) => {
+                var fileURL = window.URL.createObjectURL(new Blob([response.data]));
+                var fileLink = document.createElement('a');
+
+                fileLink.href = fileURL;
+                fileLink.setAttribute('download', 'file.pdf');
+                document.body.appendChild(fileLink);
+
+                fileLink.click();
+        });
+    }
+
     }
 }
 
@@ -51,6 +78,7 @@ export default {
   padding: 10px;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+  
  
 
   a {
@@ -60,6 +88,7 @@ export default {
     font-weight: bold;
     color: 	#1955Fa;
     font-size: 15pt;
+    cursor: pointer;
 
     &.router-link-exact-active {
       color: #38C3FF;
@@ -70,5 +99,26 @@ export default {
 .resume-page {
   font-family: 'Montserrat', sans-serif;
 }
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    // text-transform: uppercase;
+    width: 15rem;
+    height: 3rem;
+    font-size: 15pt;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 3px 4px 0 rgba(0,0,0,0.19);
+    border-radius: 3px;
+    color: 	#1955Fa;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+button:hover {
+    transform: scale(0.95)
+}
+
+
 
 </style>

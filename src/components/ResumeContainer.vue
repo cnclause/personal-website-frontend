@@ -88,6 +88,7 @@
         display: flex;
         flex-flow: column;
         align-items: center;
+        padding-top: 3rem;
     }
 
     .skills-list{
@@ -101,7 +102,8 @@
     }
 
     .skills-list img{
-        width: 6rem;
+        max-width: 6rem;
+        height: 6rem;
         margin: 1rem;
     }
 
