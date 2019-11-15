@@ -2,17 +2,28 @@
     <div class="resume">
         <h1> Technical Skills </h1>
         <ul class="skills-list">
-            <li> Ruby </li>
-            <li> Rails </li>
-            <li> Node.js </li>
-            <li> SQL </li>
-            <li> ActiveRecord </li>
-            <li> Postgresql </li>
-            <li> JavaScript </li>
-            <li> HTML </li>
-            <li> CSS </li>
-            <li> React </li>
-            <li> Vue </li>
+            <!-- <li> Ruby </li> -->
+                <img src='../images/ruby.png' alt="ruby" />
+            <!-- <li> Rails </li> -->
+                <img src='../images/rails.png' alt="rails" />
+            <!-- <li> Node.js </li> -->
+                <img src='../images/node.png' alt="node" />
+            <!-- <li> SQL </li> -->
+                <img src='../images/sql.png' alt="sql" />
+            <!-- <li> ActiveRecord </li>
+                <img src='../images/ruby.png' alt="ruby" /> -->
+            <!-- <li> Postgresql </li> -->
+                <img src='../images/postgresql.png' alt="postgresql" />
+            <!-- <li> JavaScript </li> -->
+                <img src='../images/javascript.png' alt="javascript" />
+            <!-- <li> HTML </li> -->
+                <img src='../images/html.png' alt="html" />
+            <!-- <li> CSS </li> -->
+                <img src='../images/css.png' alt="css" />
+            <!-- <li> React </li> -->
+                <img src='../images/react.png' alt="react" />
+            <!-- <li> Vue </li> -->
+                <img src='../images/vue.png' alt="vue" />
         </ul>
         <div class="employment">
             <h1> Employment History </h1>
@@ -73,10 +84,25 @@
 
 <style scoped lang="scss">
 
+    .resume{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
     .skills-list{
+        display: flex;
+        flex-flow: wrap;
+        max-width: 50%;
+        justify-content: center;
         list-style-type: none;
         padding: 1rem;
         line-height: 30px;
+    }
+
+    .skills-list img{
+        width: 6rem;
+        margin: 1rem;
     }
 
     .employment, .education{
