@@ -4,6 +4,11 @@
             <!-- <img src='../images/hikingpng.png' alt="hikingpic" /> -->
             <div class="title-and-links">
                 <h1 class = "title"> Cat Clause </h1>
+                  <div id="nav">
+                  <router-link to="/projects">Projects</router-link>
+                  <router-link to="/resume">Resume</router-link>
+                  <router-link to="/contact">Contact</router-link> 
+                </div>
                   <a
                     href="https://github.com/cnclause"
                     class="icon git-icon"
@@ -28,11 +33,7 @@
                   >
                     <img src='../images/bluelinkedin.png' alt="linkedin"/>
                   </a>
-              <div id="nav">
-                <router-link to="/projects">Projects</router-link>
-                <router-link to="/resume">Resume</router-link>
-                <router-link to="/contact">Contact</router-link> 
-              </div>
+              
             </div>
         </header>
      <router-view/>
@@ -67,27 +68,31 @@ header {
 }
 
 .title-and-links {
-  width: 20%;
   padding-right: 15rem;
 }
 
 
 
 .title {
-    font-size: 50pt;
+    font-size: 55pt;
     font-family: 'Lora', serif;
     font-weight: bold;
     color: white;
+    width: 400px;
+    text-align: center;
+
   }
 
 #nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   color: black;
-  padding: 1rem;
+  padding: 0;
+  padding-top: 1rem;
   width: 100%;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+
 
   a {
     text-decoration: none;
@@ -96,14 +101,13 @@ header {
     font-weight: bold;
     color: 	white;
     font-size: 15pt;
+    text-shadow: 1px 1px 1px black;
 
     &.router-link-exact-active {
       color: #38C3FF;
     }
   }
 }
-
-
 
 
 .icon {
