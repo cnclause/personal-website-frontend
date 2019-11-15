@@ -3,15 +3,21 @@
     <form v-on:submit.prevent="submitContact($event)" id='contactForm' class='contact-form'>
         <p>
             <label>Name</label>
-            <input type="text" name="name">
+            <input type="text" name="name" placeholder="Jane Doe">
         </p>
         <p>
             <label>Email Address</label>
-            <input type="email" name="email" >
+            <input type="email" name="email" placeholder="example@email.com" >
         </p>
         <p>
             <label>Phone Number</label>
-            <input type="text" name="phone">
+             <small>Format: 123-456-7890</small>
+            <input type="tel" name="phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                placeholder="123-456-7890"
+                required
+            >
+           
         </p>
         <p class="full">
             <label>Message</label>
@@ -101,6 +107,10 @@ export default {
 
     input {
         font-size: 11pt;
+    }
+
+    small{
+        color:lightslategray;
     }
 
 </style>
