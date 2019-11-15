@@ -1,24 +1,21 @@
-# frontend
+# Personal Webpage Frontend
 
-## Project setup
-```
-npm install
-```
+## Built With
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- JavaScript
+- Vue
+- CSS
+- HTML
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Contact Feature
 
-### Lints and fixes files
-```
-npm run lint
-```
+On the 'contact me' page, a user is able to send a direct email. This was done by implementing Nodemailer in the backend. 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Resume Download Feature
+
+A user is able to download a PDF of my resume. Axios was installed and implemented in order to make a post fetch to the backend, where my resume is held. 
+
+
+## Author
+Catherine Clause
+
