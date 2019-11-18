@@ -1,7 +1,6 @@
 <template>
     <div class="home-container" >
        <header>
-            <!-- <img src='../images/hikingpng.png' alt="hikingpic" /> -->
             <div class="title-and-links">
                 <h1 class = "title"> Cat Clause </h1>
                   <div id="nav">
@@ -44,7 +43,6 @@
 
 <style scoped lang="scss">
 
-// @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
@@ -56,7 +54,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    // width:100%;
     height: 70rem;
 }
 

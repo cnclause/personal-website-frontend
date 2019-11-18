@@ -2,27 +2,15 @@
     <div class="resume">
         <h1> Technical Skills </h1>
         <ul class="skills-list">
-            <!-- <li> Ruby </li> -->
                 <img src='../images/ruby.png' alt="ruby" />
-            <!-- <li> Rails </li> -->
                 <img src='../images/rails.png' alt="rails" />
-            <!-- <li> Node.js </li> -->
                 <img src='../images/node.png' alt="node" />
-            <!-- <li> SQL </li> -->
                 <img src='../images/sql.png' alt="sql" />
-            <!-- <li> ActiveRecord </li>
-                <img src='../images/ruby.png' alt="ruby" /> -->
-            <!-- <li> Postgresql </li> -->
                 <img src='../images/postgresql.png' alt="postgresql" />
-            <!-- <li> JavaScript </li> -->
                 <img src='../images/javascript.png' alt="javascript" />
-            <!-- <li> HTML </li> -->
                 <img src='../images/html.png' alt="html" />
-            <!-- <li> CSS </li> -->
                 <img src='../images/css.png' alt="css" />
-            <!-- <li> React </li> -->
                 <img src='../images/react.png' alt="react" />
-            <!-- <li> Vue </li> -->
                 <img src='../images/vue.png' alt="vue" />
         </ul>
         <div class="employment">

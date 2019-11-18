@@ -59,7 +59,6 @@ export default {
 
 
 #resume-title{
-  // color: #F7C331;
   font-size: 50pt;
   margin-top: 0;
   padding-top: 2rem;
@@ -102,7 +101,6 @@ export default {
 
 button {
     font-family: 'Montserrat', sans-serif;
-    // text-transform: uppercase;
     width: 15rem;
     height: 3rem;
     font-size: 15pt;

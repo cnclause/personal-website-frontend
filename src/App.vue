@@ -61,9 +61,6 @@ body, html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  // color: white;
-  // background: #DCC7AA;
-  // background: #6B7A8F;
 }
 
 

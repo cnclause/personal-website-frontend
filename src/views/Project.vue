@@ -7,7 +7,6 @@
           <router-link to="/resume">Resume</router-link>
           <router-link to="/contact">Contact</router-link> 
     </div>
-    <!-- <h1>Projects</h1> -->
     <ProjectContainer />
   </div>
 </template>
@@ -33,7 +32,6 @@ export default {
 
 
 h1{
-  // color: #F7C331;
   font-size: 50pt;
   margin-top: 0;
   padding-top: 2rem;

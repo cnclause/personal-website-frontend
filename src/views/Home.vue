@@ -5,9 +5,8 @@
 </template>
 
 <script>
-// @ is an alias to /src
+
 import HomeContainer from '@/components/HomeContainer.vue'
-// import image from '@/images/hike.JPG'
 
 export default {
   name: 'home',
