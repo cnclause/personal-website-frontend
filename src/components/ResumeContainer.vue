@@ -20,18 +20,12 @@
                 <h4> Port-au-Prince, Haiti </h4>
                 <h4> July 2017 - Present </h4>
                 <ul>
-                    <li> Timoun Kontan exists to empower communities through education </li>
-                    <li> Coordinated and implemented a scholarship program, mentorship program, and yoga program  </li>
-                    <li> Currently supporting the education of 9 children </li>
-                </ul>
-            </div>
-            <div class= "employment-card">
-                <h3> Barista, Copper Door Coffee Roaster </h3>
-                <h4> Denver, CO </h4>
-                <h4> August 2018 - August 2019 </h4>
-                <ul>
-                    <li> Responsible for managing shop alone, making drinks and exceptional customer service
-                    </li>
+                    <li> Analyzed our research results to design relevant community programs to address 50% of children not being in school and over 30% of the families requesting assistance with health and wellness </li>
+                    <li> Established framework of implementing mentorship program during political unrest to keep children safe and educated, in collaboration with the Haitian team </li>
+                    <li> Implemented a multi-faceted model that encompasses a scholarship, mentorship, and health and wellness program </li>
+                    <li> Created and executed community programs from the ground up, using social media campaigns, fundraisers, corporate sponsorships, and reaching out to donors </li>
+                    <li> Curated an art exhibit using local artists to bring awareness and funding to the organization and local art community </li>
+                    <li> Built a model automating the calculations of funding and expenses within excel to make budget oversight more efficient</li>
                 </ul>
             </div>
             <div class= "employment-card">
@@ -39,14 +33,14 @@
                 <h4> State College, PA </h4>
                 <h4> June 2015 - June 2018 </h4>
                 <ul>
-                    <li> Manages practicum course requirements for 35 students per semester; creates and upheld scheduling systems that fosters distinct pedagogical approach including environment where students learn by working in partnerships that take into account different social demographics including race, class, gender; train students on google applications, create a safe and diverse work environment
-                    </li>
-                    <li> Manages Excel sheets that monitor daily program analytics, including registration rates, attendance rates, and annual program projections; Supervises an average of 10 undergraduate student interns per semester; create weekly schedules, monitors data entry 
-                    </li>
-                    <li> Research for NATO Grant, COIL Grant, Climate Change Initiative, International Chinese Student Engagement Initiative 
+                    <li> Data analytics for NATO Grant, COIL Grant, Climate Change Initiative, International Chinese Student Engagement Initiative 
                     </li>
                     <li> Proficient with data collection and survey applications: Qualtrics, SurveyMonkey, Google Forms
                     </li>
+                    <li>Delivered solutions for logistical efficiency by designing excel sheets that monitor daily program analytics</li>
+                    <li> Managed practicum course requirements for 35 students per semester</li>
+                    <li> Created and upheld scheduling systems that fosters distinct pedagogical approach including environment where students learn by working in partnerships that take into account different social demographics including race, class, gender</li>
+                    
                 </ul>
             </div>
         </div>
@@ -55,7 +49,11 @@
             <div class="education-card">
                 <h2> Flatiron School, Denver </h2>
                 <h4> 2019 </h4>
-                <li> Bootcamp Full Stack Web Development, Ruby on Rails, JavaScript, and React fully immersive program </li>
+                <li> Full Stack Software Engineering Program</li>
+                <li> 15 week immersive program</li>
+                <li> Volunteered for beginners’ code day</li>
+                <li> Lead multiple team trainings on LinkedIn and white-boarding</li>
+                <li> Facilitated development, mission, and vision for local women’s meetup</li>
             </div>
             <div class="education-card">
                 <h2> The Pennsylvania State University, University Park </h2>
