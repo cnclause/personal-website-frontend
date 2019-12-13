@@ -5,6 +5,8 @@
                 <img src='../images/ruby.png' alt="ruby" />
                 <img src='../images/rails.png' alt="rails" />
                 <img src='../images/node.png' alt="node" />
+                <img src='../images/express.png' alt="express" />
+                <img src='../images/knex.png' alt="knex" />
                 <img src='../images/sql.png' alt="sql" />
                 <img src='../images/postgresql.png' alt="postgresql" />
                 <img src='../images/javascript.png' alt="javascript" />
@@ -12,6 +14,7 @@
                 <img src='../images/css.png' alt="css" />
                 <img src='../images/react.png' alt="react" />
                 <img src='../images/vue.png' alt="vue" />
+                <img src='../images/vuex.png' alt="vuex" />
         </ul>
         <div class="employment">
             <h1> Employment History </h1>
@@ -88,7 +91,7 @@
     }
 
     .skills-list img{
-        max-width: 6rem;
+        max-width: 8rem;
         height: 6rem;
         margin: 1rem;
     }
