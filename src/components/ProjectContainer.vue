@@ -26,7 +26,7 @@ export default {
     },
     methods: {
         getAllProjects(){
-            fetch('http://localhost:3000/api/projects')
+            fetch('http://personal-website-cat.herokuapp.com//api/projects')
                 .then(response => response.json())
                 .then(projects => {this.projects = projects})
         }

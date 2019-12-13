@@ -46,7 +46,7 @@ export default {
             const phone = formData.get("phone")
             const message = formData.get("message")
           
-            fetch('http://localhost:3000/send', {
+            fetch('https://personal-website-cat.herokuapp.com/send', {
                 method: 'POST',
                 headers: {'Content-Type':'application/json'},
                 body: JSON.stringify({ name, email, phone, message})
