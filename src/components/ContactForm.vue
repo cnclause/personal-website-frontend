@@ -3,7 +3,7 @@
     <form v-on:submit.prevent="submitContact($event)" id='contactForm' class='contact-form'>
         <p>
             <label>Name</label>
-             
+             <input type="name" name="name" placeholder="Name" >
         </p>
         <p>
             <label>Email Address</label>
