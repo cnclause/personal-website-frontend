@@ -32,7 +32,7 @@ export default {
     methods: {
     onClick() {
         axios({
-            url: 'http://localhost:5000/downloadFile',
+            url: 'https://personal-website-cat.herokuapp.com/downloadFile',
             method: 'GET',
             responseType: 'blob',
         }).then((response) => {
