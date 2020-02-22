@@ -42,7 +42,7 @@
                     </li>
                     <li>Delivered solutions for logistical efficiency by designing excel sheets that monitor daily program analytics</li>
                     <li> Managed practicum course requirements for 35 students per semester</li>
-                    <li> Created and upheld scheduling systems that fosters distinct pedagogical approach including environment where students learn by working in partnerships that take into account different social demographics including race, class, gender</li>
+                    <li> Trained in faciliation</li>
                     
                 </ul>
             </div>
